@@ -1,0 +1,79 @@
+.App{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 245, 245);
+  font-size: 3rem;
+}
+.social-menu ul{
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 20px;
+}
+#p
+{
+  font-size: 24px;
+  position: relative;
+  top: -10px
+}
+
+.social-menu ul li .fab{
+  font-size: 30px;
+  transition: .3s;
+  color: #000;
+  position: relative;
+  top: -8px;
+}
+
+.social-menu ul li .fab:hover{
+  color: #fff;
+}
+
+.social-menu ul li a{
+  margin-top: 2px;
+  color: #000;
+  display: table-cell;
+  text-align: center; 
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px; 
+  border-radius: 50%;
+  background-color: #fff;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+  transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: rgba(250, 250, 250, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover{
+  background-color: rgba(250, 250, 250, 0.829);
+}
+.social-menu ul li:nth-child(3) a:hover{
+  background-color:  rgba(250, 250, 250, 0.829);
+}
+.social-menu ul li:nth-child(4) a:hover{
+  background-color: rgba(250, 250, 250, 0.829);
+}
+@media (max-width:480px)
+{
+  .p
+  {
+    font-size: 20px;
+  }
+}
